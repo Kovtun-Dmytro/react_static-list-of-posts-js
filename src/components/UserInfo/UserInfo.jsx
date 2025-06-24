@@ -1,7 +1,7 @@
 import './UserInfo.scss';
 
 export const UserInfo = ({ user }) => (
-  <div className="user-info">
+  <div className="UserInfo">
     <p>{user.name}</p>
     <p>{user.email}</p>
   </div>
